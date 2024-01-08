@@ -19,7 +19,8 @@ const holidays = [
   { name: 'Feast of the Immaculate Conception of Mary', date: '2024-12-08T08:45:00' },
   { name: 'Chinese New Year', date: '2024-02-10T08:45:00' },
   { name: 'Black Saturday ', date: '2024-03-30T08:45:00' },
-  { name: 'Birthday ni Aids ', date: '2024-08-30T08:45:00' },
+  { name: 'Aids\' Birthday ', date: '2024-08-30T08:45:00' },
+  { name: 'Karla\'s Birthday ', date: '2024-03-12T08:45:00' },
 ];
 
 const App = () => {
