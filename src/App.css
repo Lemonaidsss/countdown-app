@@ -1,28 +1,31 @@
-.App {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 50px;
-  padding: 400px;
-  justify-content: center; /* Center the grid items horizontally */
+/* App.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.countdown {
-  width: 100%; /* Adjusted to take full width within the grid cell */
-  max-width: 300px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  text-align: center;
+.table th,
+.table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
 }
 
-.highlighted {
-  background-color: #ffd700;
-}
-
-.date {
-  margin-top: 10px;
-}
-
-.time {
+.table th {
+  background-color: #f7fafc;
+  text-align: left;
   font-weight: bold;
+  text-transform: uppercase;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #edf2f7;
+}
+
+.table tbody tr:hover {
+  background-color: #cbd5e0;
 }
