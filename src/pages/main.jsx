@@ -19,6 +19,7 @@ const holidays = [
   { name: 'Feast of the Immaculate Conception of Mary', date: '2024-12-08T08:45:00' },
   { name: 'Chinese New Year', date: '2024-02-10T08:45:00' },
   { name: 'Black Saturday ', date: '2024-03-30T08:45:00' },
+  { name: 'Eid al-Fitr', date: '2024-04-10T08:45:00'}
 ];
 
 const Countdown = () => {
