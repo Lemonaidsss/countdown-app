@@ -19,7 +19,25 @@ const holidays = [
   { name: 'Feast of the Immaculate Conception of Mary', date: '2024-12-08T08:45:00' },
   { name: 'Chinese New Year', date: '2024-02-10T08:45:00' },
   { name: 'Black Saturday ', date: '2024-03-30T08:45:00' },
-  { name: 'Eid al-Fitr', date: '2024-04-10T08:45:00'}
+  { name: 'New Year', date: '2025-01-01T08:45:00'},
+  { name: 'Chinese New Year', date: '2025-01-29T08:45:00'},
+  { name: 'EDSA Revolution Anniversary', date: '2025-02-25T08:45:00'},
+  { name: 'Araw ng Kagitingan ', date: '2025-04-09T08:45:00'},
+  { name: 'Maundy Thursday', date: '2025-04-17T08:45:00'},
+  { name: 'Good Friday', date: '2025-04-18T08:45:00'},
+  { name: 'Holy Saturday', date: '2025-04-19T08:45:00'},
+  { name: 'Easter Sunday', date: '2025-04-20T08:45:00'},
+  { name: 'Labor Day', date: '2025-05-01T08:45:00'},
+  { name: 'Independence Day', date: '2025-06-12T08:45:00'},
+  { name: 'Ninoy Aquino Day', date: '2025-08-21T08:45:00'},
+  { name: 'National Heroe’s Day', date: '2025-08-21T08:45:00'},
+  { name: 'All Saints’ Day', date: '2025-11-01T08:45:00'},
+  { name: 'All Souls’ Day', date: '2025-11-02T08:45:00'},
+  { name: 'Bonifacio Day', date: '2025-11-30T08:45:00'},
+  { name: 'Christmas Eve', date: '2025-12-24T08:45:00'},
+  { name: 'Christmas Day', date: '2025-12-25T08:45:00'},
+  { name: 'Rizal Day', date: '2025-12-30T08:45:00'},
+  { name: 'Last day of the Year', date: '2025-12-31T08:45:00'},
 ];
 
 const Countdown = () => {
